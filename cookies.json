@@ -1,0 +1,110 @@
+[
+  {
+    "name": "sbox-guid",
+    "value": "MTc1NjA2MjYzM3wyMzh8OTM3NjM4NjEw",
+    "domain": "notegpt.io",
+    "path": "/",
+    "expires": 1790622632.977147,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_uab_collina",
+    "value": "175606264005653258023218",
+    "domain": "notegpt.io",
+    "path": "/",
+    "expires": 1790622640.061389,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "YSC",
+    "value": "aqMUnmAiFQA",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://notegpt.io",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "__Secure-ROLLOUT_TOKEN",
+    "value": "CKjlzNq40Y778wEQldK8kJOkjwMYldK8kJOkjwM%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1771614643.170642,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://notegpt.io",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "value": "egC9V24AdEE",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1771614643.170839,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://notegpt.io",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_PRIVACY_METADATA",
+    "value": "CgJJUhIEGgAgLQ%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1771614643.170968,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://notegpt.io",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "anonymous_user_id",
+    "value": "b0ec3e506e4e48b64d2c090f9d9123f5",
+    "domain": "notegpt.io",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "is_first_visit",
+    "value": "true",
+    "domain": "notegpt.io",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_trackUserId",
+    "value": "G-1756062647000",
+    "domain": "notegpt.io",
+    "path": "/",
+    "expires": 1758654647,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "crisp-client%2Fsession%2F02aa9b53-fc37-4ca7-954d-7a99fb3393de",
+    "value": "session_3a7ee810-406b-4816-9cc5-23c1755e1793",
+    "domain": ".notegpt.io",
+    "path": "/",
+    "expires": 1771830651,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
