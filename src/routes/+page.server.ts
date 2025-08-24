@@ -19,16 +19,20 @@ export const actions: Actions = {
 		const apiKey: string = process.env.GEMINI_API_KEY!;
 		const ai = new Ai(apiKey);
 
-		const prompt = `
-        You are an expert content summarizer. Your task is to provide a **concise, accurate, and complete summary** of the text below in Persian, **strictly in Markdown format**.
+	const prompt = `
+You are an expert content summarizer. Your task is to provide a **detailed, accurate, and complete summary** of the text below in Persian, **strictly in Markdown format**. The summary should fully cover all key points, arguments, examples, and steps mentioned in the content. 
 
-        ${transcript}
+${transcript}
 
-        Instructions:
-        1. Do not add any extra text, explanations, or comments outside the summary.
-        2. Ensure the summary is complete; nothing from the original content should be omitted or altered.
-        3. The summary must be accurate, well-structured, and free of errors or missing information.
-        `;
+Instructions:
+1. Include all important details; do not omit or shorten any significant information.
+2. Structure the summary in a logical and clear way, using headings, bullet points, or numbered lists if needed.
+3. Write the summary in a **clear, readable, and natural style**; it should be easy to understand for any reader, and avoid poetic or overly stylized language.
+4. The summary must be accurate, well-organized, and free of errors.
+5. Avoid adding any personal opinions, commentary, or irrelevant content.
+6. Aim to produce a summary that could serve as a comprehensive reference for someone who hasn’t seen the original content.
+`;
+
 
 		console.log(transcript);
 
